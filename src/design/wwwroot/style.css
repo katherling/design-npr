@@ -1,0 +1,48 @@
+﻿body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.content{
+    display:inline-flex;
+}
+
+.left-menu{
+    width: 50px;
+    background-color: #464547;
+    color: grey;
+    text-align: center;
+}
+
+.left-menu nav ul{
+    list-style: none;
+    list-style-position: inside;
+}
+
+.left-menu a{
+    color: grey;
+}
+
+.top-menu{
+    background-color: darkgrey;
+    color: grey;
+    padding: 13px 5px;
+}
+
+.top-menu nav ul li{
+    display: inline;
+}
+
+
+.top-menu nav ul{
+    list-style: none;
+    display: inline;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+}
+
+
+.top-menu a{
+    color: grey;
+}
